@@ -1,0 +1,31 @@
+{
+  "name": "reactjs-project-scaffold",
+  "version": "1.0.0",
+  "description": "A scaffold that can be used to get new React projects underway quickly, complete with essentials like Babel and Webpack.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ray-mccord/reactjs-project-scaffold.git"
+  },
+  "author": "Ray McCord <ray.mccord@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ray-mccord/reactjs-project-scaffold/issues"
+  },
+  "dependencies": {
+    "babel-core": "~6.18.2",
+    "babel-preset-es2015": "~6.18.0",
+    "babel-preset-react": "~6.16.0",
+    "babel-loader": "~6.2.7",
+    "webpack": "~1.13.3",
+    "webpack-dev-middleware": "~1.8.4",
+    "express": "~4.14.0",
+    "react-dom": "~15.3.2",
+    "react": "~15.3.2"
+  }
+}
